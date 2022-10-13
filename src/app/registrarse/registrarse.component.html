@@ -1,0 +1,26 @@
+<div class="taregister">
+    <form [formGroup]="registrarse">
+        <table>
+    <tr>
+        <td>Nombre:</td>
+        <td><input formControlName="nombre" type="text" name="first_name" placeholder="Ponga su Nombre de usuario" required/><br></td> 
+    </tr>
+
+    <tr>
+        <td>Correo Electronico:</td>
+        <td><input formControlName="correoelectronico" type="text" name="email" placeholder="Ponga su correo Electronico" required/><br></td>
+    </tr>
+
+    <tr>
+        <td>Contraseña:</td>
+        <td><input formControlName="contrasena" type="password" name="password" placeholder="Ponga su contraseña" required/><br></td>
+    </tr>
+    <tr>
+        <td>Numero de Telefono +591:</td>
+        <td><input formControlName="telefono" type="number" name="telephone" placeholder="Ponga su Numero de telefono"><br></td> 
+    </tr>
+    </table>
+        <input type="submit" (click)="submint()" name="submit" value="Aceptar">
+        <input type="reset" name="reset" value="Borrar Dato">
+      </form>
+</div>

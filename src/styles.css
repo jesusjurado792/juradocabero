@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.title {
+    font-family: fantasy;
+    max-width: 100%;
+    background-color: rgb(9, 183, 125);
+    text-align: center;
+    padding: 8px 12px;
+    border: 2.5px solid rgb(22, 146, 104);
+    margin: 0 auto;
+    font-size: 100%;
+}
